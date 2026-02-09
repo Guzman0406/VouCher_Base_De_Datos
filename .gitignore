@@ -1,0 +1,13 @@
+.env
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+/tmp/
+.agents/
+.gemini/
+.env.local
+.env.*.local
+node_modules/
+dist/
+build/
+.DS_Store
