@@ -1,0 +1,3 @@
+GRANT USAGE ON SCHEMA public TO vaucher_readonly;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO vaucher_readonly;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO vaucher_readonly;
